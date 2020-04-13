@@ -7,23 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F073BA4242F754C007928EC /* BGColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F073BA3242F754C007928EC /* BGColor.swift */; };
+		5F073BA62433C3F7007928EC /* NewPurchaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F073BA52433C3F7007928EC /* NewPurchaseCell.swift */; };
+		5F073BA82433D011007928EC /* FormattedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F073BA72433D011007928EC /* FormattedTextField.swift */; };
+		5F073BAA24348812007928EC /* AddPurchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F073BA924348812007928EC /* AddPurchase.swift */; };
+		5F073BAC2434AAB0007928EC /* MemberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F073BAB2434AAB0007928EC /* MemberView.swift */; };
+		5F073BAE2434AC1C007928EC /* AddMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F073BAD2434AC1C007928EC /* AddMember.swift */; };
+		5F073BB02434CD2F007928EC /* AddMoney.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F073BAF2434CD2F007928EC /* AddMoney.swift */; };
+		5F073BB22439E620007928EC /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F073BB12439E620007928EC /* CardView.swift */; };
+		5F073BB62439EE27007928EC /* CurrentEventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F073BB52439EE27007928EC /* CurrentEventsView.swift */; };
+		5F073BB82439FB91007928EC /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F073BB72439FB91007928EC /* Colors.swift */; };
 		5F15EFB2242299A300C64499 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F15EFB1242299A300C64499 /* AppDelegate.swift */; };
 		5F15EFB4242299A300C64499 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F15EFB3242299A300C64499 /* SceneDelegate.swift */; };
-		5F15EFB6242299A300C64499 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F15EFB5242299A300C64499 /* ContentView.swift */; };
+		5F15EFB6242299A300C64499 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F15EFB5242299A300C64499 /* Home.swift */; };
 		5F15EFB8242299A500C64499 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F15EFB7242299A500C64499 /* Assets.xcassets */; };
 		5F15EFBB242299A500C64499 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F15EFBA242299A500C64499 /* Preview Assets.xcassets */; };
 		5F15EFBE242299A500C64499 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F15EFBC242299A500C64499 /* LaunchScreen.storyboard */; };
+		5F15EFC724229BB400C64499 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F15EFC624229BB400C64499 /* Event.swift */; };
+		5F15EFC924229C7100C64499 /* Purchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F15EFC824229C7100C64499 /* Purchase.swift */; };
+		5F15EFCD2422AB8700C64499 /* EventDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F15EFCC2422AB8700C64499 /* EventDetail.swift */; };
+		5F4C31FE242C65A700F583B9 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4C31FD242C65A700F583B9 /* UserData.swift */; };
+		5F4C3200242C66C600F583B9 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4C31FF242C66C600F583B9 /* Profile.swift */; };
+		5F4C3204242C749A00F583B9 /* NewEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4C3203242C749A00F583B9 /* NewEvent.swift */; };
+		5F4C320D242E68DA00F583B9 /* EventList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4C320C242E68DA00F583B9 /* EventList.swift */; };
+		5F4C320F242F4BA600F583B9 /* TypesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4C320E242F4BA600F583B9 /* TypesRow.swift */; };
+		5F995AA7243D0EB100381252 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F995AA6243D0EB100381252 /* ProfileView.swift */; };
+		5F995AA92443899200381252 /* NewEventRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F995AA82443899200381252 /* NewEventRow.swift */; };
+		5F995AAE2444D5E700381252 /* Payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F995AAD2444D5E700381252 /* Payment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F073BA3242F754C007928EC /* BGColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BGColor.swift; sourceTree = "<group>"; };
+		5F073BA52433C3F7007928EC /* NewPurchaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPurchaseCell.swift; sourceTree = "<group>"; };
+		5F073BA72433D011007928EC /* FormattedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormattedTextField.swift; sourceTree = "<group>"; };
+		5F073BA924348812007928EC /* AddPurchase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPurchase.swift; sourceTree = "<group>"; };
+		5F073BAB2434AAB0007928EC /* MemberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberView.swift; sourceTree = "<group>"; };
+		5F073BAD2434AC1C007928EC /* AddMember.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMember.swift; sourceTree = "<group>"; };
+		5F073BAF2434CD2F007928EC /* AddMoney.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMoney.swift; sourceTree = "<group>"; };
+		5F073BB12439E620007928EC /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		5F073BB52439EE27007928EC /* CurrentEventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentEventsView.swift; sourceTree = "<group>"; };
+		5F073BB72439FB91007928EC /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		5F15EFAE242299A300C64499 /* Qattah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Qattah.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F15EFB1242299A300C64499 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F15EFB3242299A300C64499 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5F15EFB5242299A300C64499 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5F15EFB5242299A300C64499 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		5F15EFB7242299A500C64499 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F15EFBA242299A500C64499 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5F15EFBD242299A500C64499 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F15EFBF242299A500C64499 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F15EFC624229BB400C64499 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		5F15EFC824229C7100C64499 /* Purchase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Purchase.swift; sourceTree = "<group>"; };
+		5F15EFCC2422AB8700C64499 /* EventDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetail.swift; sourceTree = "<group>"; };
+		5F4C31FD242C65A700F583B9 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		5F4C31FF242C66C600F583B9 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		5F4C3203242C749A00F583B9 /* NewEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEvent.swift; sourceTree = "<group>"; };
+		5F4C320C242E68DA00F583B9 /* EventList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventList.swift; sourceTree = "<group>"; };
+		5F4C320E242F4BA600F583B9 /* TypesRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypesRow.swift; sourceTree = "<group>"; };
+		5F995AA6243D0EB100381252 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		5F995AA82443899200381252 /* NewEventRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEventRow.swift; sourceTree = "<group>"; };
+		5F995AAD2444D5E700381252 /* Payment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,10 +79,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F073BBB243B5F6A007928EC /* HelperFunctions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HelperFunctions;
+			sourceTree = "<group>";
+		};
 		5F15EFA5242299A300C64499 = {
 			isa = PBXGroup;
 			children = (
 				5F15EFB0242299A300C64499 /* Qattah */,
+				5F15EFBF242299A500C64499 /* Info.plist */,
 				5F15EFAF242299A300C64499 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,11 +108,15 @@
 			children = (
 				5F15EFB1242299A300C64499 /* AppDelegate.swift */,
 				5F15EFB3242299A300C64499 /* SceneDelegate.swift */,
-				5F15EFB5242299A300C64499 /* ContentView.swift */,
 				5F15EFB7242299A500C64499 /* Assets.xcassets */,
 				5F15EFBC242299A500C64499 /* LaunchScreen.storyboard */,
-				5F15EFBF242299A500C64499 /* Info.plist */,
+				5F15EFC524229BA100C64499 /* Models */,
+				5F995AAC24438D0C00381252 /* Index */,
+				5F995AAB24438CE000381252 /* ShowEvent */,
+				5F995AAA24438B2C00381252 /* CreateEvent */,
+				5F4C3209242CB97400F583B9 /* SupportViews */,
 				5F15EFB9242299A500C64499 /* Preview Content */,
+				5F073BBB243B5F6A007928EC /* HelperFunctions */,
 			);
 			path = Qattah;
 			sourceTree = "<group>";
@@ -73,6 +127,63 @@
 				5F15EFBA242299A500C64499 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5F15EFC524229BA100C64499 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5F4C31FF242C66C600F583B9 /* Profile.swift */,
+				5F15EFC624229BB400C64499 /* Event.swift */,
+				5F15EFC824229C7100C64499 /* Purchase.swift */,
+				5F4C31FD242C65A700F583B9 /* UserData.swift */,
+				5F073BB72439FB91007928EC /* Colors.swift */,
+				5F995AAD2444D5E700381252 /* Payment.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5F4C3209242CB97400F583B9 /* SupportViews */ = {
+			isa = PBXGroup;
+			children = (
+				5F995AA6243D0EB100381252 /* ProfileView.swift */,
+				5F073BA3242F754C007928EC /* BGColor.swift */,
+				5F073BA72433D011007928EC /* FormattedTextField.swift */,
+				5F073BAB2434AAB0007928EC /* MemberView.swift */,
+			);
+			path = SupportViews;
+			sourceTree = "<group>";
+		};
+		5F995AAA24438B2C00381252 /* CreateEvent */ = {
+			isa = PBXGroup;
+			children = (
+				5F4C3203242C749A00F583B9 /* NewEvent.swift */,
+				5F4C320E242F4BA600F583B9 /* TypesRow.swift */,
+				5F995AA82443899200381252 /* NewEventRow.swift */,
+			);
+			path = CreateEvent;
+			sourceTree = "<group>";
+		};
+		5F995AAB24438CE000381252 /* ShowEvent */ = {
+			isa = PBXGroup;
+			children = (
+				5F073BA52433C3F7007928EC /* NewPurchaseCell.swift */,
+				5F073BA924348812007928EC /* AddPurchase.swift */,
+				5F073BAD2434AC1C007928EC /* AddMember.swift */,
+				5F073BAF2434CD2F007928EC /* AddMoney.swift */,
+				5F15EFCC2422AB8700C64499 /* EventDetail.swift */,
+			);
+			path = ShowEvent;
+			sourceTree = "<group>";
+		};
+		5F995AAC24438D0C00381252 /* Index */ = {
+			isa = PBXGroup;
+			children = (
+				5F15EFB5242299A300C64499 /* Home.swift */,
+				5F4C320C242E68DA00F583B9 /* EventList.swift */,
+				5F073BB52439EE27007928EC /* CurrentEventsView.swift */,
+				5F073BB12439E620007928EC /* CardView.swift */,
+			);
+			path = Index;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +257,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F073BAA24348812007928EC /* AddPurchase.swift in Sources */,
+				5F073BA62433C3F7007928EC /* NewPurchaseCell.swift in Sources */,
+				5F073BB02434CD2F007928EC /* AddMoney.swift in Sources */,
+				5F4C3200242C66C600F583B9 /* Profile.swift in Sources */,
+				5F4C3204242C749A00F583B9 /* NewEvent.swift in Sources */,
+				5F15EFC724229BB400C64499 /* Event.swift in Sources */,
+				5F073BB22439E620007928EC /* CardView.swift in Sources */,
+				5F4C320F242F4BA600F583B9 /* TypesRow.swift in Sources */,
+				5F073BB62439EE27007928EC /* CurrentEventsView.swift in Sources */,
+				5F073BAE2434AC1C007928EC /* AddMember.swift in Sources */,
+				5F15EFCD2422AB8700C64499 /* EventDetail.swift in Sources */,
+				5F995AA7243D0EB100381252 /* ProfileView.swift in Sources */,
+				5F073BB82439FB91007928EC /* Colors.swift in Sources */,
+				5F073BA82433D011007928EC /* FormattedTextField.swift in Sources */,
+				5F4C31FE242C65A700F583B9 /* UserData.swift in Sources */,
+				5F4C320D242E68DA00F583B9 /* EventList.swift in Sources */,
 				5F15EFB2242299A300C64499 /* AppDelegate.swift in Sources */,
 				5F15EFB4242299A300C64499 /* SceneDelegate.swift in Sources */,
-				5F15EFB6242299A300C64499 /* ContentView.swift in Sources */,
+				5F073BA4242F754C007928EC /* BGColor.swift in Sources */,
+				5F995AA92443899200381252 /* NewEventRow.swift in Sources */,
+				5F15EFB6242299A300C64499 /* Home.swift in Sources */,
+				5F15EFC924229C7100C64499 /* Purchase.swift in Sources */,
+				5F995AAE2444D5E700381252 /* Payment.swift in Sources */,
+				5F073BAC2434AAB0007928EC /* MemberView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
